@@ -8,4 +8,4 @@ API Mocker link : https://github.com/masai-school/api-mocker/wiki/Authentication
 
 7 . code deployed link : -- https://eager-villani-7a82bb.netlify.com/
 
-![GitHub Logo](/screenshots/Flipkart Landing page 1.png)
+![GitHub Logo](https://github.com/Aditya91995/Frontend_1_flipkart/blob/master/screenshots/Flipkart%20Landing%20page%201.png)
