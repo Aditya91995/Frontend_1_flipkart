@@ -7,3 +7,5 @@ API Mocker link : https://github.com/masai-school/api-mocker/wiki/Authentication
 6. Go to the Cart which is on nav bar , after going to the cart page click on "See added item" and can see the added item and total amount .
 
 7 . code deployed link : -- https://eager-villani-7a82bb.netlify.com/
+
+![GitHub Logo](/screenshots/Flipkart Landing page 1.png)
