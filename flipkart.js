@@ -1,17 +1,17 @@
 
-var productData = [{ "si": 1, "icons": "http://dummyimage.com/117x232.jpg/dddddd/000000", "brand": "Suzuki", "manufacture": "10/25/2019", "price": 1221532 },
-{ "si": 2, "icons": "http://dummyimage.com/126x242.bmp/dddddd/000000", "brand": "Hyundai", "manufacture": "7/10/2019", "price": 1063950 },
-{ "si": 3, "icons": "http://dummyimage.com/233x118.jpg/cc0000/ffffff", "brand": "Honda", "manufacture": "1/28/2020", "price": 335786 },
-{ "si": 4, "icons": "http://dummyimage.com/228x174.jpg/cc0000/ffffff", "brand": "Mercedes-Benz", "manufacture": "12/2/2019", "price": 485244 },
-{ "si": 5, "icons": "http://dummyimage.com/148x181.bmp/dddddd/000000", "brand": "Pontiac", "manufacture": "3/27/2019", "price": 791047 },
-{ "si": 6, "icons": "http://dummyimage.com/120x142.png/ff4444/ffffff", "brand": "Toyota", "manufacture": "9/10/2019", "price": 1290038 },
-{ "si": 7, "icons": "http://dummyimage.com/181x118.jpg/cc0000/ffffff", "brand": "Lexus", "manufacture": "12/17/2019", "price": 1070107 },
-{ "si": 8, "icons": "http://dummyimage.com/111x138.jpg/cc0000/ffffff", "brand": "Volkswagen", "manufacture": "4/28/2019", "price": 534254 },
-{ "si": 9, "icons": "http://dummyimage.com/152x227.png/5fa2dd/ffffff", "brand": "Lexus", "manufacture": "8/7/2019", "price": 240209 },
-{ "si": 10, "icons": "http://dummyimage.com/130x134.bmp/dddddd/000000", "brand": "Geo", "manufacture": "8/8/2019", "price": 714096 },
-{ "si": 11, "icons": "http://dummyimage.com/130x183.bmp/ff4444/ffffff", "brand": "Honda", "manufacture": "11/26/2019", "price": 1223203 },
-{ "si": 12, "icons": "http://dummyimage.com/149x159.png/5fa2dd/ffffff", "brand": "Shelby", "manufacture": "8/21/2019", "price": 1027178 },
-{ "si": 13, "icons": "http://dummyimage.com/201x112.jpg/dddddd/000000", "brand": "Mercury", "manufacture": "12/14/2019", "price": 1111230 },
+var productData = [{ "si": 1, "icons": "http://dummyimage.com/117x232.jpg/dddddd/000000", "brand": "Samsung", "manufacture": "10/25/2019", "price": 1221532 },
+{ "si": 2, "icons": "http://t0.gstatic.com/images?q=tbn%3AANd9GcTKH33Y7BDphntp0M8SHyAQmVPs8AcO2EAt6ezSTCb-3Yk3DwPwzBOpl23plv-RBYLJ3-QF_pA&usqp=CAc", "brand": "Samsung", "manufacture": "7/10/2019", "price": 10639 },
+{ "si": 3, "icons": "http://dummyimage.com/233x118.jpg/cc0000/ffffff", "brand": "Galaxy", "manufacture": "1/28/2020", "price": 335786 },
+{ "si": 4, "icons": "http://dummyimage.com/228x174.jpg/cc0000/ffffff", "brand": "Galaxy 2", "manufacture": "12/2/2019", "price": 485244 },
+{ "si": 5, "icons": "http://dummyimage.com/148x181.bmp/dddddd/000000", "brand": "Galaxy 2", "manufacture": "3/27/2019", "price": 791047 },
+{ "si": 6, "icons": "http://dummyimage.com/120x142.png/ff4444/ffffff", "brand": "Samsung s1", "manufacture": "9/10/2019", "price": 1290038 },
+{ "si": 7, "icons": "http://dummyimage.com/181x118.jpg/cc0000/ffffff", "brand": "LG", "manufacture": "12/17/2019", "price": 1070107 },
+{ "si": 8, "icons": "http://dummyimage.com/111x138.jpg/cc0000/ffffff", "brand": "Motorolla", "manufacture": "4/28/2019", "price": 534254 },
+{ "si": 9, "icons": "http://dummyimage.com/152x227.png/5fa2dd/ffffff", "brand": "Redme", "manufacture": "8/7/2019", "price": 240209 },
+{ "si": 10, "icons": "http://dummyimage.com/130x134.bmp/dddddd/000000", "brand": "JIO", "manufacture": "8/8/2019", "price": 714096 },
+{ "si": 11, "icons": "http://dummyimage.com/130x183.bmp/ff4444/ffffff", "brand": "Samsung", "manufacture": "11/26/2019", "price": 1223203 },
+{ "si": 12, "icons": "http://dummyimage.com/149x159.png/5fa2dd/ffffff", "brand": "Samsung", "manufacture": "8/21/2019", "price": 1027178 },
+{ "si": 13, "icons": "http://dummyimage.com/201x112.jpg/dddddd/000000", "brand": "Galaxy", "manufacture": "12/14/2019", "price": 1111230 },
 { "si": 14, "icons": "http://dummyimage.com/123x220.jpg/dddddd/000000", "brand": "Toyota", "manufacture": "7/4/2019", "price": 577101 },
 { "si": 15, "icons": "http://dummyimage.com/184x223.jpg/5fa2dd/ffffff", "brand": "Dodge", "manufacture": "6/10/2019", "price": 322886 },
 { "si": 16, "icons": "http://dummyimage.com/116x199.bmp/5fa2dd/ffffff", "brand": "Buick", "manufacture": "11/19/2019", "price": 631266 },
@@ -109,10 +109,10 @@ function all1() {
   let getArr = JSON.parse(localStorage.getItem("data"))
   getArr.forEach((ele, i) => {
     $("#all2").append(`
-    <div class="ml-4 col-3p-3">
+    <div class="col">
       <div id="cartid${i}">
-        <div class="card mt-2" style="width: 18rem;">
-          <img src="https://icdn3.digitaltrends.com/image/digitaltrends/p90262036-highres-500x300-c.jpg"]}" class="card-img-top img-fluid" alt="icon image">
+        <div class="mt-2">
+          <img src="https://images.samsung.com/is/image/samsung/p5/ph/support/home/support-kv-pc.png?$ORIGIN_PNG$" class="img-fluid" alt="icon image">
           <div class="card-body" >
           <h5 class="card-title">Brand :${ele["brand"]}</h5>
           <p class="card-text"></p>
@@ -151,8 +151,8 @@ function cartItems() {
 
     $("#cartShow").append(`
     <div>
-        <div id="getCartid${i}" class="card">
-            <img src="https://icdn3.digitaltrends.com/image/digitaltrends/p90262036-highres-500x300-c.jpg"]}"  class="card-img-top img-fluid" alt="icon image">
+        <div id="getCartid${i}" class="col">
+            <img src="https://images.samsung.com/is/image/samsung/p5/ph/support/home/support-kv-pc.png?$ORIGIN_PNG$"  class="card-img-top img-fluid" alt="icon image">
             <div class="card-body" >
               <h5 class="card-title">Brand : ${ele["brand"]}</h5>
               <p class="card-text"></p>
@@ -183,11 +183,16 @@ function cartItems() {
 function cartbtnDelete(e) {
   $("#getCartid" + e).remove()
 }
-
 // view all btn
 function topCards(){
   event.preventDefault()
   let proData2 = JSON.parse(localStorage.getItem("proData"))
+ 
+  if(proData2 == null){
+    alert("No deals available")
+  }
+  else{
+  $("#dealOfTheDay").hide()
   console.log(proData2)
   proData2.forEach((ele, i) => {
     $("#topCards").append(`
@@ -201,5 +206,6 @@ function topCards(){
   </div>
         `)
         
-  })
-}
+        })
+      }
+  }
