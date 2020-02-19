@@ -6,6 +6,6 @@ API Mocker link : https://github.com/masai-school/api-mocker/wiki/Authentication
 5. Some random products are already added to the system which can be acceess by the "All products" button on the nav bar which is shown on the bottom of the page and can be added to cart by "Add" button.
 6. Go to the Cart which is on nav bar , after going to the cart page click on "See added item" and can see the added item and total amount .
 
-7 . code deployed link : -- https://eager-villani-7a82bb.netlify.com/
+7 . code deployed link : -- https://lucid-lichterman-4cea7e.netlify.com/
 
 ![GitHub Logo](https://github.com/Aditya91995/Frontend_1_flipkart/blob/master/screenshots/Flipkart%20Landing%20page%201.png)
